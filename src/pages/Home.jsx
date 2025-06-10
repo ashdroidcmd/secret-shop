@@ -1,7 +1,11 @@
-import React from "react";
+import HeroSwiper from "../components/Swiper/HeroSwiper";
 
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <>
+      <HeroSwiper />
+    </>
+  );
 };
 
 export default Home;
