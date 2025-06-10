@@ -14,7 +14,7 @@ const heroImages = [
 const HeroSwiper = () => {
   return (
     <>
-      <section className="mb-3">
+      <section>
         <Swiper
           spaceBetween={0}
           centeredSlides={true}
