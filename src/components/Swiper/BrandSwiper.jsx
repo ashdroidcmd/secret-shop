@@ -1,5 +1,3 @@
-import React from "react";
-
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, FreeMode } from "swiper/modules";
@@ -53,7 +51,7 @@ const BrandSwiper = () => {
             },
           }}
           autoplay={{
-            delay: 4500,
+            delay: 10000,
             disableOnInteraction: false,
           }}
         >
