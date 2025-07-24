@@ -1,6 +1,7 @@
 import HeroSwiper from "../components/Swiper/HeroSwiper";
 import BrandSwiper from "../components/Swiper/BrandSwiper";
 import CategoriesSwiper from "../components/Swiper/CategoriesSwiper";
+import ProductCards from "../components/UI/ProductCards";
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       <HeroSwiper />
       <BrandSwiper />
       <CategoriesSwiper />
+      <ProductCards />
     </>
   );
 };

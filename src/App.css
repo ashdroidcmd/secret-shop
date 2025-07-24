@@ -3,3 +3,8 @@
 
 /*  import Swiper styles */
 @import 'swiper/css';
+
+body {
+    scroll-behavior: smooth;
+    background: #F5F5F4;
+}
